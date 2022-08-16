@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <form name="signupForm">
+        <div>
+            <label for="user_name">Name:</label>
+            <input name="name" id="user_name" type="text">
+        </div>
+        <div>
+            <label for="user_email">Email:</label>
+            <input name="email" id="user_email" type="email">
+        </div>
+        <div>
+            <label for="user_password">Password:</label>
+            <input name="password" id="user_password" type="password">
+        </div>
+        <button type="submit">Signup</button>
+    </form>
+    <p>Already have an account? <a href="/login">Login</a></p>
+    <script src="/scripts/auth.js"></script>
+</body>
+</html>
